@@ -78,8 +78,8 @@ html, body, [class*="css"] { font-family: 'Syne', sans-serif; }
     margin-bottom: 0.6rem;
     border-left: 4px solid #990011;
 }
-.module-card h4 { margin: 0 0 4px 0; font-size: 0.9rem; color: #7F1D1D; }
-.module-card p  { margin: 0; font-size: 0.78rem; color: #9F1239; }
+.module-card h4 { margin: 0 0 4px 0; font-size: 0.9rem; color: #7F1D1D !important; }
+.module-card p  { margin: 0; font-size: 0.78rem; color: #9F1239 !important; }
 
 .metric-card {
     background: #FFFFFF;
@@ -132,7 +132,8 @@ html, body, [class*="css"] { font-family: 'Syne', sans-serif; }
 }
 
 section[data-testid="stSidebar"] { background: #1C1C1E !important; }
-section[data-testid="stSidebar"] * { color: #FCF6F5 !important; }
+section[data-testid="stSidebar"] > * { color: #FCF6F5 !important; }
+section[data-testid="stSidebar"] label { color: #B0B0B0 !important; }
 section[data-testid="stSidebar"] .stSelectbox label,
 section[data-testid="stSidebar"] .stTextArea label {
     color: #B0B0B0 !important;
