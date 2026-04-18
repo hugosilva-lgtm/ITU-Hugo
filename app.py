@@ -218,7 +218,7 @@ section[data-testid="stSidebar"] .stButton button:hover { background: #990011 !i
 STUDENT = {
     "name": "Hugo Silva",
     "id": "74964557",
-    "school": "ITU  |  SPRING 2026",
+    "school": "ITU  | Final Assignment | SPRING 2026",
     "course": "HCM 535 – Data Analytics Application in Healthcare",
 }
 FOOTER_TXT = f"{STUDENT['name']}  ·  ID {STUDENT['id']}  ·  {STUDENT['school']}  ·  {STUDENT['course']}"
@@ -1022,7 +1022,7 @@ if st.session_state.report_text:
 st.markdown(
     """
 <div class="footer">
-    Hugo Silva  ·  ID 74964557  ·  ITU | SPRING 2026
+    Hugo Silva  ·  ID 74964557 · Final Assignemnt ·  ITU | SPRING 2026
     ·  HCM 535 – Data Analytics Application in Healthcare<br>
     Powered by Anthropic Claude  ·  Not a substitute for medical advice<br>
     For academic use, verify all clinical claims and references before submission.
